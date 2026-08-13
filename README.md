@@ -1,5 +1,7 @@
 # QA Automation Portfolio - Nicholas Baccus
 
+[![Playwright Tests](https://github.com/Cut-Dionysus/qa-automation-portfolio/actions/workflows/playwright.yml/badge.svg)](https://github.com/Cut-Dionysus/qa-automation-portfolio/actions/workflows/playwright.yml)
+
 I built this project to show how I approach software testing when the goal is dependable feedback, not simply a large test count. It is a small, deterministic Playwright and TypeScript project covering browser automation, REST API validation, regression testing, cross-browser execution, CI integration, and useful failure evidence.
 
 My professional automation background includes Python, Katalon Studio, Eggplant, SQL, GitLab CI/CD, PowerShell, Bash, Java, and testing in secure government and defense environments. Playwright and TypeScript are newer additions to my toolkit, so this repository is intentionally honest: it demonstrates what I can build and explain today without claiming years of production Playwright experience.
