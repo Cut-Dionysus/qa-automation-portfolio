@@ -1,0 +1,19 @@
+{
+  "name": "nicholas-baccus-qa-automation-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright and TypeScript portfolio demonstrating UI, API, regression, and CI testing.",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:api": "playwright test tests/api",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@playwright/test": "^1.54.0",
+    "typescript": "^5.8.3"
+  }
+}
